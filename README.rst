@@ -26,7 +26,7 @@ Usage
 .. code-block:: python
 
     >>> from textblob import TextBlob
-    >>> from textblob_aptagger import PerceptronTagger
+    >>> from textblob-aptagger import PerceptronTagger
     >>> blob = TextBlob("Simple is better than complex.", pos_tagger=PerceptronTagger())
     >>> blob.tags
     [('Simple', u'NN'), ('is', u'VBZ'), ('better', u'JJR'), ('than', u'IN'), ('complex', u'JJ')]
